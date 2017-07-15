@@ -1,0 +1,19 @@
+{
+  "name": "magic",
+  "version": "1.0.0",
+  "description": "This is a game for magical lads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RasPat1/magic-lol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RasPat1/magic-lol/issues"
+  },
+  "homepage": "https://github.com/RasPat1/magic-lol#readme"
+}
