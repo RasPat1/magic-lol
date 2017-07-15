@@ -118,6 +118,6 @@ function newRandomCard(color) {
 }
 
 function grabRandom(arr) {
-  var randomIndex = Math.floor(arr.length * Math.random())
-  return arr[randomIndex]
+  var randomIndex = Math.floor(arr.length * Math.random());
+  return arr[randomIndex];
 }
