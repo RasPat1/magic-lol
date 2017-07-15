@@ -1,3 +1,16 @@
+var express = require('express');
+var app = express();
+
+app.get('/', function(req, res) {
+  res.send('This is what is up');
+});
+
+app.listen(3000, function() {
+  console.log("sup");
+});
+
+module.exports = app;
+
 // Run the game!!
 gameStart();
 
