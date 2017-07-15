@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RasPat1/magic-lol/issues"
   },
-  "homepage": "https://github.com/RasPat1/magic-lol#readme"
+  "homepage": "https://github.com/RasPat1/magic-lol#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
