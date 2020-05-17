@@ -5,6 +5,10 @@ app.get('/', function(req, res) {
   res.send('This is what is up');
 });
 
+app.get('/create-deck', function(req, res) {
+  var colors = req.colors;
+});
+
 app.listen(3000, function() {
   console.log("sup");
 });
