@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res) {
-  res.send('This is what is up');
+  res.sendfile(__dirname + '/views/index.html');
 });
 
 app.get('/create-deck', function(req, res) {
